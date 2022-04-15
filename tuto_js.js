@@ -54,10 +54,19 @@ for(var key in personne){
         console.log("key: " + key + ", valeur: " + personne[key]);
 }  */
 
+window.onload = function(){
 
+        var compteur = 0;
+        var interval = setInterval(function(){
+                if(compteur >= 5){
+                        clearInterval(interval);
+                }
+                console.log(compteur);
+                compteur++;
+        }, 1000); //en ms
+}
 
 function changeColor(){
         document.querySelector("h1").style.color = "red";
         document.querySelector("p").style.color = "blue";
 }
-

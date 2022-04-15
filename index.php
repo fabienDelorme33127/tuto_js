@@ -11,7 +11,14 @@
 
 <body>
 
-    <h1>test</h1>       
+    <button onClick="changeColor()">change color</button>
+
+    <h1 id="aaa">titre1</h1>       
+    <h1 id="bbb">titre2</h1>       
+    <h1 id="ccc">titre3</h1>   
+    <p>test</p>    
+    <p>test2</p>    
+    <p>test3</p>    
 
 </body>
 </html>
